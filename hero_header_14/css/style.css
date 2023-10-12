@@ -1,0 +1,169 @@
+body{
+    background-color: #2f1b8b;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 2% 16% 7%;
+}
+
+a{
+    color: white;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
+
+label{
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+input[type="checkbox" ]:checked{
+    accent-color: cyan;
+}
+
+#menu{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+}
+
+#div-items{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#hero-brand, .nav-item{
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#hero-brand{
+    margin-right: auto;
+    font-size: large;
+    font-weight: 550;
+}
+
+#item_1{
+    color: gray;
+}
+
+.purchase-btn{
+    background-color: #FF4B91;
+    color: white;
+    padding: 7px 18px;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.purchase-btn > span{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#purchase-item {
+    margin-left: 1rem;
+}
+
+.container{    
+    overflow: hidden;
+    position: relative;
+}
+
+#heading{
+    font-size: 3rem;
+}
+
+#overview{
+    font-size: medium;
+    width: 95%;
+    line-height: 1.4;
+}
+
+#overview{
+    margin-top: 4rem;
+    display: inline-block;
+}
+
+#sign-up-div{
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    right: 0;
+    top: 4rem;
+    text-align: center;
+}
+
+.input-element{
+    color: gray;
+    width: 75%;
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 7px 8px;
+    margin: 8px 0;
+}
+
+#sign-up{
+    color: #3F1D38;
+}
+
+#input-container{
+    font-size: smaller;
+    color: gray;
+    margin: 8px auto;
+    text-align: left;
+    width: 75%; 
+}
+
+#sign-in, #login{
+    text-decoration: none;
+    color: white;
+    margin: 1rem auto;
+    display: block;
+    padding: 8px;
+    width: 75%;
+    border-radius: 15px;
+}
+
+#sign-in{
+    background-color: darkblue;
+}
+
+#login{
+    background-color: dodgerblue;
+}
+
+#option{
+    color: darkgray;
+    margin: 0 10px;
+}
+
+#option:before,
+#option:after {
+  background-color: gray;
+  color: darkgrey;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+#sign-up-account{
+    font-size: smaller;
+    color: gray;
+}
+
+#sign-up-account > span > a{
+    color: dodgerblue;
+    text-decoration: none;
+}
